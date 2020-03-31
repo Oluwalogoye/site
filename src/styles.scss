@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body,html{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    color: white;
+  }
+  // #sidebar{
+  //     width: 5%;
+  //     height: 100%;
+  //     position: absolute;
+  //     left: 0%;
+  // }
+  #main{
+    float: right;
+    background : url("/site/assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+    font-family: 'Baskerville'
+  }
+  .header{
+  color: #fff;
+  
+  // font-size: 30px;
+  font-size: 2.3vw;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 3%;
+  justify-content: flex-start;
+  display: flex;
+  
+  }
+  .header2{
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 3%;
+  text-align: left;
+  
+  }
+  .paragraphSpaceVertically{
+  height: 3.5vmin;
+  }
+  .singleContentCenteredFlex{
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
